@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router'
+import { ToastContainer } from 'react-toastify'
 import './App.css'
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <h1 className="text-3xl font-bold underline font-heading">Bn Breeze</h1>
 
       <Outlet/>
+      
+      <ToastContainer/>
     </>
   )
 }
